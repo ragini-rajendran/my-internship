@@ -1,0 +1,55 @@
+body
+{
+	display: flex;
+}
+.container{
+	display: flex;
+	background-color: green;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+.flex-container1{
+	display: flex;
+}
+.flex-container1>div{
+	width: 100%;
+	line-height: 75%;
+	padding: 75px;
+	margin: 10px;
+	background-color: DodgerBlue;
+	justify-content: center;
+}
+.flex-container2{
+	display: flex;
+}
+.flex-container2>div{
+	width: 100%;
+	line-height: 75%;
+	padding: 75px;
+	margin: 10px;
+	background-color: DodgerBlue;
+	justify-content: center;
+}
+.flex-container3{
+	display: flex;
+}
+.flex-container3>div{
+	width: 100%;
+	line-height: 75%;
+	padding: 75px;
+	margin: 10px;
+	background-color: DodgerBlue;
+	justify-content: center;
+}
+.flex-container4{
+	display: flex;
+}
+.flex-container4>div{
+	width: 100%;
+	line-height: 75%;
+	padding: 75px;
+	margin: 10px;
+	background-color: DodgerBlue;
+	justify-content: center;
+}
