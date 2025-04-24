@@ -1,0 +1,317 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #0c1124;
+    color: #fff;
+}
+
+header {
+  background-color: #0e1a45;
+                    padding: 10px 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo  {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+
+}
+.product-info img{
+width: 20%
+}
+.main-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav li {
+    margin-left: 0px;
+    position: relative;
+}
+
+.main-nav li:first-child {
+    margin-left: 0px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+.main-nav a:hover {
+    color: #007bff;
+}
+
+
+.products-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0c1124;
+    border: 1px solid #ddd;
+    border-top: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    padding: 20px;
+
+}
+
+.products-menu-item:hover .products-dropdown {
+    display: flex;
+}
+
+.product-column {
+    width: 320px;
+}
+
+.product-column:last-child {
+    margin-right: 0;
+}
+
+.product-column h3 {
+    color: #807b7b;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.product-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-column li {
+    padding: 1px 0;
+}
+
+.product-column li a {
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+.product-column li a:hover {
+    color: #007bff;
+}
+.dropdown-section li a {
+    display: block;
+    color: #555;
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+
+.product-info {
+    margin-left: 0px;
+
+}
+
+.product-info h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+
+.product-info p {
+    font-size: 0.9em;
+    color: white;
+    margin-bottom: 0;
+     line-height: 1.4;
+}
+.surftouch-details {
+
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.surfprint-details {
+
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.surfpad-details {
+
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.surfalone-details {
+
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.surfmini-details {
+
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.surfxpress-details {
+
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.tap-to-pay-iphone-details{
+
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.checkoutx softpos {
+
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+
+
+ .banner {
+                   padding: 120px 335px;
+                    text-align: center;
+                }
+
+                .banner-notification {
+                    background-color: #7c7c71;
+                    color: #f3f056;
+                    padding: 15px 20px;
+                    border-radius: 7px;
+                    margin-bottom: 20px;
+                    font-size: 0.8em;
+                }
+
+                .banner-title {
+                    font-size: 3.5em;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+
+                .banner-subtitle {
+                    color: #ccc;
+                    font-size: 1.1em;
+                    line-height: 1.6;
+                    margin-bottom: 30px;
+                }
+
+
+.chatbot-button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#chatbot-toggle {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+}
+
+#chatbot-toggle:hover {
+    background-color: #0056b3;
+}
+
+/* Basic styling for the chatbot widget */
+  #chatbot-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  #chat-header {
+    background-color: #004d99; /* Example header color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #chat-messages {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+
+  .user-message {
+    background-color: #d7e6e8;
+    color: #050505f2;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+  }
+
+  .bot-message {
+    background-color: #d7e6e8 ;
+    color: #050505f2;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  #chat-input {
+    padding: 10px;
+    display: flex;
+  }
+
+  #message-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  #send-button {
+    padding: 8px 12px;
+    background-color: #004d99; /* Example send button color */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
